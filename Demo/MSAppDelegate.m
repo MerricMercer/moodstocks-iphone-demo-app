@@ -30,6 +30,9 @@
 #import "MSDebug.h"
 #import "MSScanner.h"
 
+// -------------------------------------------------
+// Moodstocks API key/secret pair
+// -------------------------------------------------
 #define MS_API_KEY @"ApIkEy"
 #define MS_API_SEC @"ApIsEcReT"
 
