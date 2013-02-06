@@ -18,16 +18,7 @@
 		823E732A15D3F56F0031AFC1 /* MSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 823E732915D3F56F0031AFC1 /* MSActivityView.m */; };
 		824CCA28165BDDD500CE44B4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 824CCA27165BDDD500CE44B4 /* icon.png */; };
 		824CCA2B165BDDD800CE44B4 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 824CCA2A165BDDD800CE44B4 /* icon@2x.png */; };
-		826A8323160B768700960B94 /* libmoodstocks-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 826A8310160B768700960B94 /* libmoodstocks-sdk.a */; };
-		826A8324160B768700960B94 /* MSApiSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 826A8314160B768700960B94 /* MSApiSearch.m */; };
-		826A8325160B768700960B94 /* MSAvailability.m in Sources */ = {isa = PBXBuildFile; fileRef = 826A8316160B768700960B94 /* MSAvailability.m */; };
-		826A8326160B768700960B94 /* MSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 826A8319160B768700960B94 /* MSImage.m */; };
-		826A8327160B768700960B94 /* MSResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 826A831C160B768700960B94 /* MSResult.m */; };
-		826A8328160B768700960B94 /* MSScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 826A831E160B768700960B94 /* MSScanner.m */; };
-		826A8329160B768700960B94 /* MSScannerSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 826A8320160B768700960B94 /* MSScannerSession.m */; };
-		826A832A160B768700960B94 /* MSSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 826A8322160B768700960B94 /* MSSync.m */; };
 		826A832C160B781B00960B94 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 826A832B160B781B00960B94 /* Default-568h@2x.png */; };
-		82838FC9162EB6460012F577 /* MSCaptureSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 82838FC8162EB6460012F577 /* MSCaptureSession.m */; };
 		82A1659C149907C200B8AEB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A1659B149907C200B8AEB4 /* UIKit.framework */; };
 		82A1659E149907C200B8AEB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A1659D149907C200B8AEB4 /* Foundation.framework */; };
 		82A165A0149907C200B8AEB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A1659F149907C200B8AEB4 /* CoreGraphics.framework */; };
@@ -55,27 +46,7 @@
 		823E732915D3F56F0031AFC1 /* MSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSActivityView.m; sourceTree = "<group>"; };
 		824CCA27165BDDD500CE44B4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		824CCA2A165BDDD800CE44B4 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		826A8310160B768700960B94 /* libmoodstocks-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libmoodstocks-sdk.a"; sourceTree = "<group>"; };
-		826A8311160B768700960B94 /* moodstocks_sdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moodstocks_sdk.h; sourceTree = "<group>"; };
-		826A8313160B768700960B94 /* MSApiSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSApiSearch.h; sourceTree = "<group>"; };
-		826A8314160B768700960B94 /* MSApiSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSApiSearch.m; sourceTree = "<group>"; };
-		826A8315160B768700960B94 /* MSAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAvailability.h; sourceTree = "<group>"; };
-		826A8316160B768700960B94 /* MSAvailability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAvailability.m; sourceTree = "<group>"; };
-		826A8317160B768700960B94 /* MSDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDebug.h; sourceTree = "<group>"; };
-		826A8318160B768700960B94 /* MSImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSImage.h; sourceTree = "<group>"; };
-		826A8319160B768700960B94 /* MSImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSImage.m; sourceTree = "<group>"; };
-		826A831A160B768700960B94 /* MSObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSObjC.h; sourceTree = "<group>"; };
-		826A831B160B768700960B94 /* MSResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSResult.h; sourceTree = "<group>"; };
-		826A831C160B768700960B94 /* MSResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSResult.m; sourceTree = "<group>"; };
-		826A831D160B768700960B94 /* MSScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScanner.h; sourceTree = "<group>"; };
-		826A831E160B768700960B94 /* MSScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScanner.m; sourceTree = "<group>"; };
-		826A831F160B768700960B94 /* MSScannerSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScannerSession.h; sourceTree = "<group>"; };
-		826A8320160B768700960B94 /* MSScannerSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScannerSession.m; sourceTree = "<group>"; };
-		826A8321160B768700960B94 /* MSSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSync.h; sourceTree = "<group>"; };
-		826A8322160B768700960B94 /* MSSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSync.m; sourceTree = "<group>"; };
 		826A832B160B781B00960B94 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		82838FC7162EB6460012F577 /* MSCaptureSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCaptureSession.h; sourceTree = "<group>"; };
-		82838FC8162EB6460012F577 /* MSCaptureSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCaptureSession.m; sourceTree = "<group>"; };
 		82A16597149907C200B8AEB4 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A1659B149907C200B8AEB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		82A1659D149907C200B8AEB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,7 +74,6 @@
 				82A1659C149907C200B8AEB4 /* UIKit.framework in Frameworks */,
 				82A1659E149907C200B8AEB4 /* Foundation.framework in Frameworks */,
 				82A165A0149907C200B8AEB4 /* CoreGraphics.framework in Frameworks */,
-				826A8323160B768700960B94 /* libmoodstocks-sdk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,41 +105,6 @@
 				823E732915D3F56F0031AFC1 /* MSActivityView.m */,
 			);
 			name = "Activity Indicator";
-			sourceTree = "<group>";
-		};
-		826A830E160B767100960B94 /* Moodstocks SDK */ = {
-			isa = PBXGroup;
-			children = (
-				826A8310160B768700960B94 /* libmoodstocks-sdk.a */,
-				826A8311160B768700960B94 /* moodstocks_sdk.h */,
-				826A8312160B768700960B94 /* Obj-C */,
-			);
-			name = "Moodstocks SDK";
-			sourceTree = "<group>";
-		};
-		826A8312160B768700960B94 /* Obj-C */ = {
-			isa = PBXGroup;
-			children = (
-				826A8313160B768700960B94 /* MSApiSearch.h */,
-				826A8314160B768700960B94 /* MSApiSearch.m */,
-				826A8315160B768700960B94 /* MSAvailability.h */,
-				826A8316160B768700960B94 /* MSAvailability.m */,
-				826A8317160B768700960B94 /* MSDebug.h */,
-				826A8318160B768700960B94 /* MSImage.h */,
-				826A8319160B768700960B94 /* MSImage.m */,
-				826A831A160B768700960B94 /* MSObjC.h */,
-				826A831B160B768700960B94 /* MSResult.h */,
-				826A831C160B768700960B94 /* MSResult.m */,
-				826A831D160B768700960B94 /* MSScanner.h */,
-				826A831E160B768700960B94 /* MSScanner.m */,
-				826A831F160B768700960B94 /* MSScannerSession.h */,
-				826A8320160B768700960B94 /* MSScannerSession.m */,
-				82838FC7162EB6460012F577 /* MSCaptureSession.h */,
-				82838FC8162EB6460012F577 /* MSCaptureSession.m */,
-				826A8321160B768700960B94 /* MSSync.h */,
-				826A8322160B768700960B94 /* MSSync.m */,
-			);
-			path = "Obj-C";
 			sourceTree = "<group>";
 		};
 		82A1658C149907C100B8AEB4 = {
@@ -210,7 +145,6 @@
 		82A165A1149907C200B8AEB4 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				826A830E160B767100960B94 /* Moodstocks SDK */,
 				823E732715D3F5610031AFC1 /* Activity Indicator */,
 				822B28CF149916B9001A7DD1 /* Scanner */,
 				822B28D0149916C0001A7DD1 /* Overlay */,
@@ -312,14 +246,6 @@
 				822B28CE149914FE001A7DD1 /* MSOverlayController.m in Sources */,
 				82E7F44F151CC51700B1DC34 /* RootViewController.m in Sources */,
 				823E732A15D3F56F0031AFC1 /* MSActivityView.m in Sources */,
-				826A8324160B768700960B94 /* MSApiSearch.m in Sources */,
-				826A8325160B768700960B94 /* MSAvailability.m in Sources */,
-				826A8326160B768700960B94 /* MSImage.m in Sources */,
-				826A8327160B768700960B94 /* MSResult.m in Sources */,
-				826A8328160B768700960B94 /* MSScanner.m in Sources */,
-				826A8329160B768700960B94 /* MSScannerSession.m in Sources */,
-				826A832A160B768700960B94 /* MSSync.m in Sources */,
-				82838FC9162EB6460012F577 /* MSCaptureSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
