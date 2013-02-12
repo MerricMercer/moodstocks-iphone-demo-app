@@ -130,6 +130,7 @@
 
 - (void)scannerDidSync:(MSScanner *)scanner {
     scannerSyncError = MS_SUCCESS;
+    MSDLog(@" [MOODSTOCKS SDK] SYNC SUCCEEDED (%d IMAGE(S))", [scanner count:nil]);
 }
 
 - (void)scanner:(MSScanner *)scanner failedToSyncWithError:(NSError *)error {
