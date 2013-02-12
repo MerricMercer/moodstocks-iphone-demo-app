@@ -23,7 +23,6 @@
 
 #import "MSScannerController.h"
 
-#import "MSAppDelegate.h"
 #import "MSOverlayController.h"
 #import "MSDebug.h"
 #import "MSImage.h"
@@ -171,9 +170,11 @@ static NSInteger kMSScanOptions = MS_RESULT_TYPE_IMAGE;
     [videoPreviewLayer insertSublayer:captureLayer below:[[videoPreviewLayer sublayers] objectAtIndex:0]];
 
     // Try again to synchronize if the last sync failed
-    MSAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    if (appDelegate.scannerSyncError != MS_SUCCESS) {
-        [appDelegate scannerSync];
+    id<UIApplicationDelegate> appDelegate = [[UIApplication sharedApplication] delegate];
+    if ([appDelegate respondsToSelector:@selector(scannerSyncError)] &&
+        [appDelegate respondsToSelector:@selector(scannerSync)]) {
+        if ([appDelegate performSelector:@selector(scannerSyncError)] != MS_SUCCESS)
+            [appDelegate performSelector:@selector(scannerSync)];
     }
 
     [_scannerSession startCapture];
