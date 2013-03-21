@@ -90,6 +90,7 @@
         MSScanner *scanner = [MSScanner sharedInstance];
         if (![scanner openWithKey:MS_API_KEY secret:MS_API_SEC error:&err]) {
             scannerOpenError = [err code];
+#ifdef DEBUG
             // == DO NOT USE IN PRODUCTION: THIS IS A HELP MESSAGE FOR DEVELOPERS
             if (scannerOpenError == MS_CREDMISMATCH) {
                 NSString *errStr = @"there is a problem with your key/secret pair: "
@@ -111,10 +112,8 @@
                                          reason:@"Credentials mismatch"
                                        userInfo:nil] raise];
             }
-            // == DO NOT USE IN PRODUCTION: THIS IS A HELP MESSAGE FOR DEVELOPERS
-            else {
-                MSDLog(@" [MOODSTOCKS SDK] SCANNER OPEN ERROR: %@", MSErrMsg(scannerOpenError));
-            }
+#endif
+            MSDLog(@" [MOODSTOCKS SDK] SCANNER OPEN ERROR: %@", MSErrMsg(scannerOpenError));
         }
 #endif
     }
